@@ -1,0 +1,11 @@
+Virtual Dom , Fibre , reconcilation
+React has its own dom structure which compared with browser dom 
+And only updates the required part rather than updating the entire 
+Dom.
+React uses Fibre algorithm to create virtual Dom
+Actually when multiple updates occur at same time then rather than 
+updating them individually update them all at once for this Fibre 
+has pause , and many more methods.. Fibre sets priority that which
+part will update first
+
+Reconcilation -> algorithm which compares virtual Dom And browser Dom

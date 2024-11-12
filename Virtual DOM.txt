@@ -1,0 +1,8 @@
+Window Browser - Reloads entire dom to make a single change (enitre page reloads)
+React DOM - React has its own Dom which is same like window dom or js dom but it will update only changed part
+fiber - Fiber is an algorithm which is used to update the virtual dom. Key features are pause , abort and assining priority to different updates
+hydration is the process of injecting js to html
+reconcilation - it is an algorithm which differenciate window and viratual dom and decides which part to be changed.
+If there are so many updates then fiber takes a little bit pause and then update all the parts at once.
+if its need to update the enitre dom react will directly update the enitre dom.
+Different types of updates has different priorities.

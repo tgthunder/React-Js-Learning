@@ -1,0 +1,11 @@
+Custom hooks and Components ->
+- We can craeate our own custom hooks to perform specific task
+- we can make use of react hooks to build custom hooks.
+- Note : when you are using loops in react Html then make sure that you are accessing elements in arrays
+with the help of keys (generally index in array when you apply map function)
+
+- Note: make a seperate js file export all the components inside it and import the js file while redering
+so that only one file should be imported basically to keep everything clean
+
+** useId hook -> This hook generates unique id for accessibility attributes of html
+you can bind input filed and label.

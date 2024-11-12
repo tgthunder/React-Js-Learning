@@ -1,0 +1,6 @@
+- You need to call Js in your Html to so that Js could be injected in Html after all React is nothing but Js
+- Package lock-jason and package jason are files in which dependencies are stored required for current version of react
+- Index.html is the main file which we write the code for UI
+- In Core React The html is injected through js into index.html directly. using react-scripts which are in package.jason
+- In vite the script is already injected by react into index.html
+- Always write the first letter of component in upperCase And Its Good Practice to write file name initial in capital 

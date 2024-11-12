@@ -1,0 +1,35 @@
+React -> js library for bulding user interface. The page renders without reloading the entire page
+2 ways of Creating React project -> Using Create react app npx (bundler but too bulkier)
+Using vite/ parcel (lite version but so useful)
+
+*** Package.jason - it contains dependecies , scripts and lot of information..
+**** react simplifies the proccess of redering html with js. 
+- we can build application on single page..
+How does React Works in vite->
+- look inside index.html you will have a div tag associated with id root and using that root a <App/> means a component 
+rederend on that html via jsx file.
+- The jsx file is added inside index.html using script tag.
+- You dont need to add script inside index.html when you create react using create react app(core react)
+- If you are creating react apps with vite you need to create components using jsx file .Write function 
+name with initial letter in upper case
+
+
+*** Understanding the under the hood of react and creating our own React..
+- How can we create our own react -> at the end react is what a simple html in which js is injected..
+- create a simple html file with a div #root and add a js script inside that..
+- now create a html element like if we want to create a link means anchor tag. now behind the scence what react do 
+It stores data of that html element inside a object and create a function which add that element to the root using document.appendChild
+Thats it. 
+- It performs multiple optimization and return you a html
+
+** Now if you want to add variable inside html you can make use of {}
+- You can not return enitre expressions like if else for loop inside {}. Only the final outcome of expression should be returned.
+
+How react parse the html code and convert into object 
+it uses React.createElement and takes few parameters in a sequence
+1. type of html element 'a' ,'div','p','h1'
+2. properties -> attributes and values inside an object
+3. Direct text that you want to write inside element
+4. js variables
+This object is then passed to an optimized function and the function will add your html element to #root
+-- babble which is a transpiler injects these html elements by parsing them.

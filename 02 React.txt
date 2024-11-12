@@ -1,0 +1,9 @@
+React Hooks -> 
+special functions which are used to change the UI data.
+traditional js method require lot of time if you are changing data you
+need to make changes everywhere using getElementbyId , querySelector and all
+But if you use hooks then react will change the data everywhere.
+
+1. UseState -> This hook is used to make update in data like counter
+
+ 

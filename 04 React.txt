@@ -1,0 +1,6 @@
+Tailwind css -> single line tailwind css 
+follow the steps to install tailwind in your vite project
+
+
+Props -> these are actually properties which allows components to become reusable
+we pass properties and handle it in component

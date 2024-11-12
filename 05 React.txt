@@ -1,0 +1,4 @@
+useCallback() hook -> 
+- this hook cache the value of function when we make change in UI
+- we need to pass a function and dependencies that on which changes 
+the function will run

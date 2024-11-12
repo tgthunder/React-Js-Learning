@@ -1,0 +1,6 @@
+- Why We need Context API 
+- when we create a card which contains name , some information and mobile number and that card is decorated with well format 
+- Now we have <App/> component inside which we have 2 sections , in 2nd section we have two blocks and in 1st block the above Card is present then we Have to pass props to each and every outer part to update the values in the card. This is called prop drilling 
+- To avoid prop drilling we use context API
+- Thats how Redux come in action
+- Redux pass the data from here and there in organized way
