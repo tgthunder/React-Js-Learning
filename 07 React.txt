@@ -1,0 +1,21 @@
+React Router ->
+Used to navigate from one page to another without page reload
+- install react-router-dom.
+- createBrowserRouter is used to declare path and components 
+- RouterProvider is used to call the components those which are mentioned inside router varibale.
+- router provide use a Link tag to navigate without reload
+- specify Navbar infront of everycomponent inside element 
+- useParams hook used to set dynamic parameters while routing
+- NavLink provides you some extra functionality..
+- NavLink provides you a function inside className in that you will get
+isActive variable. If its true then you are on the page which you want to 
+navigate then just change the color of text of the link in UI
+- Outlet is a kind of hook which allows you to replace your components with this outlet
+- you can fix your header , footer and change the components
+- For this you need to add all the components inside this Layout with the help of children while creating routes
+Basically you are performing nested routing.
+- loader is used to load the data from api/database or from anywhere when a when a particluar 
+component didmount. you can do this using useEffect but loader method is more optimized
+- you need to export a method which loads or return the data. fetch basically..
+# Another method to write routes->
+you will have a createRoutesFromElements method. You can define this method inside createBrowserRouter

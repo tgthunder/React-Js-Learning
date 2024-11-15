@@ -46,7 +46,7 @@ export default function Header() {
                                         ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                     // writing a className with callback will make the element dynamic while routing
-                                    // we will get isActive variable which values true when we on that element 
+                                    // we will get isActive variable which values true when we on that component 
                                 >
                                     Home
                                 </NavLink>
